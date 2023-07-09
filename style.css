@@ -4,6 +4,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 .nav-title{
     color: black;
@@ -41,10 +42,33 @@ nav a{
 }
 
 
-
-
-
 /* header menu end */
+/* main heder start */
+
+.heder{
+    background-color: #dcdcdb;
+}
+.banner{
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content{
+    
+}
+
+.banner .profile{
+    height: 370px;
+    width: 280px;
+}
+
+
+
+
+
+
+/* main heder end */
 
 
 
