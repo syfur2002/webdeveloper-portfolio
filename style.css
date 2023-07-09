@@ -1,0 +1,60 @@
+/* header menu start*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: black;
+    font-size: 50px;
+    font-weight:900;
+}
+
+.btn-primary{
+color: orange;
+border-radius: 7px;
+height: 43px;
+width: 130px;
+font-size: 15px;
+color: #fff;
+background-color: orange;
+border: none;
+padding: 14px 33px;
+}
+
+.primary{
+    color: orange;
+}
+nav> ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 55px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+
+
+
+
+/* header menu end */
+
+
+
+
+
+
+
+
+
+
+
+
+
