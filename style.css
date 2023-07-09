@@ -47,6 +47,11 @@ nav a{
 
 .heder{
     background-color: #dcdcdb;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position-x:90%;
+    background-position-y: bottom;
+    background-size: 480px 300px;
 }
 .banner{
     margin: 0 150px;
@@ -55,25 +60,78 @@ nav a{
 }
 
 .banner-content{
-    
+
 }
 
 .banner .profile{
     height: 370px;
     width: 280px;
 }
-
-
-
+.banner-gratting{
+    font-size: 25px;
+    font-weight: 100;
+}
+.banner-head{
+    font-size: 37;
+    font-weight: 700;
+}
 
 
 
 /* main heder end */
+/* about setion style */
 
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    max-width: 1100px;
+    background-color:#dcdcdb;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.section-title{
+    text-align: center;
+    padding-top: 25px;
+}
+.section-discription{
+    text-align: center;
+}
+.info-title{
+    text-align: center;
+    
+}
+.info-discription{
+    margin-bottom: 40px;
+}
+
+.about-info{
+    margin-top: 40px;
+}
+/* another section style */
 
 
+.skills{
+    margin-top: 100px;
+}
+.skills-head{
+    text-align: center;
+}
+.skills-discription{
+    text-align: center;
+}
+.skill{}
+.skill-image{}
+.skill-head{}
+.skill-details{}
 
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}        
 
 
 
